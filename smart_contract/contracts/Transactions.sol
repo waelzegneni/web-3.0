@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0; // choosing the solidity version
 
-contract Transactions {
+contract Transactions{
     // contract is like a class in oop
     uint256 transactionCount; // holds the number of transactions
 

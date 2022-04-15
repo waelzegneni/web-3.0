@@ -11,11 +11,14 @@ const main = async () => {
 const runMain = async () => { 
   try {
     await main();
-    process.exit(0);
+    process.exit(0); // no error
   } catch (error) {
     console.error(error);
     process.exit(1);
   }
 }
 
-runMain();
+runMain(); // this is going to bed executed => call the runMain function => call the main function
+
+// when we run this secret our transactions are going to bed deployed and we get the address of our smart contract deployed on the blockchain network
+

@@ -6,7 +6,7 @@ contract Transactions{
     // contract is like a class in oop
     uint256 transactionCount; // holds the number of transactions
 
-    event Transfer(address from,address receiver,uint256 amount,string message,uint256 timestamp,string keyword);
+    event Transfer (address from,address receiver,uint256 amount,string message,uint256 timestamp,string keyword);
     //function to be triggered
 
     struct TransferStruct {
